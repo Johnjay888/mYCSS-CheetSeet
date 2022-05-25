@@ -1,0 +1,196 @@
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1{
+    background-color: #333;
+    color: white;
+
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+
+    border-width: 3px;
+    border-bottom: 10px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    /*same as above*/
+    padding: 20px;
+
+    margin-top: 20px;
+    margin: 20px 0;
+}
+
+.box-1 h1{
+    color: blue;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+
+
+.box-2{
+    border: 3px dotted;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.catigory{
+    border: 1px #ccc solid;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.catigory h2{
+    text-align: center;
+}
+
+.catigory ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+.catigory li{
+    padding-bottom: 6px;
+    border-bottom:dotted 1px #333;
+}
+
+
+/*Designing  Form */
+.my-form{
+    padding: 20px;
+}
+
+.my-form form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    
+}
+
+.button:hover{
+    background-color: red;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.clr{
+    clear: both;
+
+}
+
+#main-block{
+float: left;
+width: 70%;
+padding: 15px;
+box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+/*Positioaning*/
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('./image/jayjay.png');
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: cover;
+    
+}
+.p-box h1{
+   position: absolute;
+   top: 100px;
+   left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 100px;
+    right: 40px;
+  
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
+
+
+/*pseoudu selector8*/
+.mylist li:first-child{
+    background: red;
+}
+
+.mylist li:last-child{
+    background: rgb(51, 0, 255);
+}
+
+.mylist li:nth-child(4){
+    background: rgb(89, 87, 94);
+}
+.mylist li:nth-child(even){
+    background: rgb(236, 236, 11);
+}
